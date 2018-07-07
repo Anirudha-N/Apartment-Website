@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; margin:0px; padding:0px; text-align:justify}
+.container{ width:980px; margin:0 auto;}
+.headerLeft{ width:17px; float:left; height:134px; margin-top:15px}
+.headerRight{ width:17px; float:right; height:134px; margin-top:15px}
+.header{
+	/*the pic is 329 by 308*/
+	width:980px;
+	/*float:left;*/
+	height:125px;
+	margin:0 auto;
+	/*background-image: url(images/header-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;*/
+}
+.logo{ width:592px; float:left; height:1px; margin-top:15px}
+/***************************************************************/
+#left {float: left;text-align: left;padding-right: 10px}
+#center {text-align: center;}
+#right {float: right;text-align: right;padding-left: 10px;}
+/***************************************************************/
+
+
+/***************************************************************/
+#logo {
+	height: 110px;
+}
+/* GIVING TITLE */
+.contentContainer{ width:980px; float:left; margin-top:10px;}
+.leftContainer{ width:350px; float:left; margin-right:10px;margin-left:10px}
+.newsHeading{font-size:18px; width:230px; padding:10px 10px 0px 10px; font-weight:bold}
+.newsDate{font-size:15px;width:230px; padding:10px 10px 0px 10px; font-weight:BOLD}
+.newsContent{ font-size:12px;width:230px; padding:0px 10px 10px 10px;}
+.leftTop{ width:250px; float:left}
+.leftBg{
+	width:250px;
+	float:left;
+	background-image: url(images/left-top-bg.jpg);
+	background-repeat: repeat-y;
+}
+.navBg{
+	width:980px;
+	height:33px;
+	float:left;
+	background-image: url(images/menu-bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-top:10px;
+}
+.menuBg{ width:946px; height:33px; float:left}
+.quickBg{width:250px;
+	float:left;
+	background-image: url(images/quick-connect-bg.jpg);
+	background-repeat: repeat-y;}
+..navLeft{ width:17px; height:33px; float:left}
+.content{ width:710px; float:left}
+.footer{ background-color:#36b0b6; height:20px; padding:5px 0px; color:#FFF; font-size:11px; margin-top:50px}
+.footerBox{ width:980px; margin:0 auto; height:15px}
+.footerMenu{ width:480px; float:left}
+.footerMenuCopy{ width:500px; float:left; text-align:right}

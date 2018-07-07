@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>SIGN UP PAGE</title>
+  <link href="images/favicon.ico" type="image" rel="icon">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <!-- stylesheets -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/colour.css" rel="stylesheet" type="text/css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    <!-- THIS IS FROM INDEX.HTML.. -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="menubar.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/sign.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/wall.css" media="contactform" /> 
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo"><img src="images/soclogo2.jpg" width=400 height=110 /></div>
+	</div>
+	<div class = "container">
+	<div id='cssmenu'>
+		<ul>
+			<li><a href='index.html'><span>Home</span></a></li>
+			<li><a href='ManagingCommittee.html'><span>Managing Committee</span></a></li>
+			<li><a href='E&G.html'><span> Upcoming Events</span></a></li>
+			<li><a href='visual_tour.html'><span>Gallery</span></a></li>
+			<li><a href='log.php'><span>Login</span></a></li>
+			<li class = 'active' class='last'><a href='society.php'><span>Sign up</span></a></li>
+		</ul>
+	</div>		
+	 <div><font face = "Droid Serif" size="2" color="#FFFFFF"><p align = "center">HILL VIEW HOUSING SOCIETY</p></font></div>
+	
+    <div  class="form">
+    <form id="contactform"> 
+    			<p class="contact"><label for="name">Name</label></p> 
+    			<input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> 
+    			 
+    			<p class="contact"><label for="email">Email</label></p> 
+    			<input id="email" name="email" placeholder="example@domain.com" required="" type="email"> 
+                
+                <p class="contact"><label for="username">Create a username</label></p> 
+    			<input id="username" name="username" placeholder="username" required="" tabindex="2" type="text"> 
+    			 
+                <p class="contact"><label for="password">Create a password</label></p> 
+    			<input type="password" id="password" name="password" required=""> 
+                <p class="contact"><label for="repassword">Confirm your password</label></p> 
+    			<input type="password" id="repassword" name="repassword" required=""> 
+        
+               <fieldset>
+                 <label>Birthday</label>
+                  <label class="month"> 
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Month</option>
+                  <option  value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03" >March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                  <option value="07">July</option>
+                  <option value="08">August</option>
+                  <option value="09">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12" >December</option>
+                  </label>
+                 </select>    
+                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
+                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
+              </fieldset>
+  
+            <select class="select-style gender" name="gender">
+            <option value="select">i am..</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="others">Other</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="phone">Mobile phone</label></p> 
+            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit"> 	 
+   </form> 
+</div>      
+</div>
+			<!-- begin footer -->	
+	<div style="clear:both"></div>
+	<div class="footer">
+		<div class="footerBox">
+			<div class="footerMenu">Copyright &copy; Hill View Housing Society(India) Pvt Ltd. All rights reserved.</div>
+			<div class="footerMenuCopy"><a href=http://pvgcoet.ac.in/">Designers of pvg coet,Pune</a>.</p>
+			<p><a href="https://twitter.com/"> <img src="images/twitter.png" alt="twitter" /> </a> &nbsp;<a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" /></a>&nbsp;<a href="https://www.rss.com/"><img src="images/rss.png" alt="rss"/></a></div>
+		</div>
+	</div>
+	<!-- end footer -->
+	<!-- javascript at the bottom for fast page loading -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+	<script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+	<script type="text/javascript" src="js/image_fade.js"></script>
+	<!-- initialise sooperfish menu -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $('ul.sf-menu').sooperfish();
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>HILL VIEW</title>
+		 <link href="images/favicon.ico" type="image" rel="icon">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="menubar.css">
+
+	<script type="text/javascript">
+
+	var slideimages = new Array() // create new array to preload images
+	slideimages[0] = new Image() // create new instance of image object
+	slideimages[0].src = "images/s1.jpg" // set image src property to image path, preloading image in the process
+	slideimages[1] = new Image()
+	slideimages[1].src = "images/s2.jpg"
+	slideimages[2] = new Image()
+	slideimages[2].src = "images/s3.jpg"
+	slideimages[3] = new Image()
+	slideimages[3].src = "images/s4.jpg"
+	slideimages[4] = new Image()
+	slideimages[4].src = "images/s5.jpg"
+	slideimages[5] = new Image()
+	slideimages[5].src = "images/s6.jpg"
+	slideimages[6] = new Image()
+	slideimages[6].src = "images/s7.jpg"
+	slideimages[7] = new Image()
+	slideimages[7].src = "images/s8.jpg"
+	slideimages[8] = new Image()
+	slideimages[8].src = "images/s9.jpg"
+	slideimages[9]= new Image()
+	slideimages[9].src = "images/s10.jpg"
+	</script>
+
+</head>
+
+<body >
+	<div class="header">
+		<div class="logo"><img src="images/soclogo2.jpg" width=400 height=110 /></div>
+	</div>
+	<div class="container">
+		<!--<div class="header">-->
+			<!--<div class="headerLeft"><img src="images/header-left.jpg"  /></div>-->
+			<!--<div id="logo"><h1>PHOTO<a href="#">ART</a>WORK 2_reverse</h1></div>-->
+			<!--<div class="headerRight"><img src="images/header-right.jpg"  /></div>
+		</div>-->
+		<div style="clear:both"></div>
+		
+		<div id='cssmenu'>
+			<ul>
+				<li class='active'><a href='index.html'><span>Home</span></a></li>
+				<li><a href='ManagingCommittee.html'><span>Managing Committee</span></a></li>
+				<li><a href='E&G.html'><span>Upcoming Events</span></a></li>
+				<li><a href='visual_tour.html'><span>Gallery</span></a></li>
+				<li><a href='log.php'><span>Login</span></a></li>
+				<li class='last'><a href='society.php'><span>Sign up</span></a></li>
+			</ul>
+		</div>
+		
+		<!-- SLIDE SHOWW-->
+		<img src="img/s1.jpg" id="slide" style="border:5px ; position: absolute; top:185px; left: 510px;" width="620" height="350"/>
+
+		<script type="text/javascript">
+	
+		//variable that will increment through the images
+
+		var step=0
+
+		function slideit(){
+
+		//if browser does not support the image object, exit.
+
+		if (!document.images)
+
+			return
+
+		document.getElementById('slide').src = slideimages[step].src
+
+		if (step<9)
+			step++
+		else
+			step=0				//call function "slideit()" every 2.5 seconds
+			setTimeout("slideit()",2500)
+		}	
+		slideit()
+
+		</script>
+		
+		<div class="contentContainer">
+			<div class="leftContainer">
+				<div class="leftBg">
+					<div class="leftTop"><img src="images/left-top.jpg" /></div>
+					<div class="newsHeading"><font face = "Sans-Serif" color="#36b0b6">LATEST NEWS</font></div>
+					<marquee behavior="scroll" direction="up" scrollamount="4" truespeed="truespeed">
+						<div class="newsDate"><font color="000066"><b> 15/06/2015 <b></font></div>
+						<div class="newsContent"><b>ANANYA JOSHI</b> acquired Gold Medal for the State level Swimming Championship.<br/></div>
+						<div style="clear:both"></div>
+						<div class="newsDate"><font color="000066"><b>8/08/2015<b></font></div>
+						<div class="newsContent"><b> DR. MAHESH BHATT</b> recently achieved 'PhD' degree in the field of Medical science.<br/></div>     
+						<div style="clear:both"></div>
+						<div class="newsDate"><font color="000066">19/9/2015</font></div>
+						<div class="newsContent"><b>JOIN THE MOST AWAITED DHOL PATHAK ORGANISED BY OUR SOCIETY'S CULTURAL GROUP HURRY!</b> <br/></div>
+					</marquee>
+					<div style="clear:both"></div>
+					<div class="leftTop"><img src="images/left-bottom.jpg" /></div>
+					<div style="clear:both;"></div>
+					<div class="quickBg"></div>
+				</div>
+			</div>
+			
+			<div class="content">
+				<h3><font face = "Verdana" color="#36b0b6"><h1>  More about Us...<h1></font></h3>
+				<p><font face = "Verdana"> Hill View Housing Society Pvt Ltd. is one of the societies developed by Shree Developers is nestled in the greenary & hillside ,Pune.
+				It offers spacious and skilfully designed 2bhk & 3bhk and 4.5bhk apartments.The project is well equipped with all the basic amenities to facilitate the needs of the residents.  The Society comprises of 288 members living happily and is blessed with all the amenities within the premises, like a well-equipped Gymnasium, Sports facilities, swimming pool, landscaped gardens and a Club House.
+				</font></p>				
+			</div>
+		</div>
+	</div>
+	
+	<!-- begin footer -->	
+	<div style="clear:both"></div>
+	<div class="footer">
+		<div class="footerBox">
+			<div class="footerMenu">Copyright &copy; Hill View Housing Society(India) Pvt Ltd. All rights reserved.</div>
+			<div class="footerMenuCopy"><a href=http://pvgcoet.ac.in/">Designers of pvg coet,Pune</a>.</p>
+			<p><a href="https://twitter.com/"> <img src="images/twitter.png" alt="twitter" /> </a> &nbsp;<a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" /></a>&nbsp;<a href="https://www.rss.com/"><img src="images/rss.png" alt="rss"/></a></div>
+		</div>
+	</div>
+	<!-- end footer -->
+	<!-- javascript at the bottom for fast page loading -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+	<script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+	<script type="text/javascript" src="js/image_fade.js"></script>
+	<!-- initialise sooperfish menu -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  $('ul.sf-menu').sooperfish();
+		});
+	</script>
+</body>
+</html>
+
+                            
